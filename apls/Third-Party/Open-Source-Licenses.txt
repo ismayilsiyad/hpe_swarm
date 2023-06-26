@@ -1,0 +1,174 @@
+
+List of 50 third-party dependencies grouped by their license type.
+
+Artistic License:
+
+    *Display tag library (displaytag:displaytag:1.2)
+
+BSD 2-Clause:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+Berkeley Software Distribution:
+
+    *Stax2 API (org.codehaus.woodstox:stax2-api:3.1.1)
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-core-server (org.glassfish.jersey.core:jersey-server:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+    *HyperSQL Database (org.hsqldb:hsqldb:2.2.8)
+    *jibx-run (org.jibx:jibx-run:1.2.1)
+
+Common Development and Distribution License (CDDL), Version 1.0 with GPLv2 with CE:
+
+    *JavaMail API (com.sun.mail:javax.mail:1.5.5)
+    *Java Servlet API (javax.servlet:javax.servlet-api:4.0.1)
+    *JavaServer Pages(TM) API (javax.servlet.jsp:javax.servlet.jsp-api:2.3.1)
+
+Common Development and Distribution License (CDDL), Version 1.1 with GPLv1:
+
+    *jersey-media-json (org.glassfish.jersey.media:jersey-media-json:2.0-m05-1)
+
+EDL 1.0:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+EPL 2.0:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-core-common (org.glassfish.jersey.core:jersey-common:2.35)
+    *jersey-core-server (org.glassfish.jersey.core:jersey-server:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-json-jackson (org.glassfish.jersey.media:jersey-media-json-jackson:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+Eclipse Public License, Version 1.0:
+
+    *c3p0 (com.mchange:c3p0:0.9.5.5)
+
+GNU General Public License, Version 2 with CE:
+
+    *jersey-core-common (org.glassfish.jersey.core:jersey-common:2.35)
+    *jersey-core-server (org.glassfish.jersey.core:jersey-server:2.35)
+    *jersey-media-json-jackson (org.glassfish.jersey.media:jersey-media-json-jackson:2.35)
+
+GNU Lesser General Public License, Version 1.0:
+
+    *JBoss Transaction 1.0.1 API (org.jboss.javaee:jboss-transaction-api:1.0.1.GA)
+
+GNU Lesser General Public License, Version 2.1:
+
+    *c3p0 (com.mchange:c3p0:0.9.5.5)
+    *Hibernate ORM - hibernate-c3p0 (org.hibernate:hibernate-c3p0:5.6.10.Final)
+    *Hibernate ORM - hibernate-core (org.hibernate:hibernate-core:5.6.10.Final)
+    *Javassist (org.javassist:javassist:3.20.0-GA)
+    *JGroups (org.jgroups:jgroups:2.6.22.Final)
+
+GNU Lesser General Public License, Version 2.1 with Classpath Exception:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+GNU Lesser General Public License, Version 3.0:
+
+    *ha-jdbc (net.sf.ha-jdbc:ha-jdbc:2.0.16-rc-1)
+
+MIT license:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+MPL 1.1:
+
+    *Javassist (org.javassist:javassist:3.20.0-GA)
+
+Public Domain:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-core-common (org.glassfish.jersey.core:jersey-common:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+The Apache Software License, Version 2.0:
+
+    *jackson-databind (com.fasterxml.jackson.core:jackson-databind:2.13.4.2)
+    *Jackson-JAXRS-JSON (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.8)
+    *Apache Commons BeanUtils (commons-beanutils:commons-beanutils:1.9.4)
+    *Commons Digester (commons-digester:commons-digester:2.1)
+    *Apache Commons FileUpload (commons-fileupload:commons-fileupload:1.4)
+    *Apache Commons IO (commons-io:commons-io:2.11.0)
+    *Apache Commons Logging (commons-logging:commons-logging:1.2)
+    *JavaMelody - Core (net.bull.javamelody:javamelody-core:1.91.0)
+    *Apache Commons Collections (org.apache.commons:commons-collections4:4.4)
+    *Apache Commons Lang (org.apache.commons:commons-lang3:3.8.1)
+    *Apache HttpClient (org.apache.httpcomponents:httpclient:4.5.13)
+    *Apache Log4j Core (org.apache.logging.log4j:log4j-core:2.17.1)
+    *Apache Log4j Commons Logging Bridge (org.apache.logging.log4j:log4j-jcl:2.17.1)
+    *Apache Log4j SLF4J Binding (org.apache.logging.log4j:log4j-slf4j-impl:2.17.1)
+    *Apache Log4j Web (org.apache.logging.log4j:log4j-web:2.17.1)
+    *Apache POI - Common (org.apache.poi:poi:5.2.3)
+    *Apache POI - API based on OPC and OOXML schemas (org.apache.poi:poi-ooxml:5.2.3)
+    *Struts 2 Core (org.apache.struts:struts2-core:2.5.30)
+    *Struts 2 Tiles Plugin (org.apache.struts:struts2-tiles-plugin:2.5.30)
+    *Tiles - API (org.apache.tiles:tiles-api:3.0.8)
+    *Tiles - Compatibility (org.apache.tiles:tiles-compat:3.0.8)
+    *Tiles - Core Library (org.apache.tiles:tiles-core:3.0.8)
+    *Tiles - Servlet support (org.apache.tiles:tiles-servlet:3.0.8)
+    *Jettison (org.codehaus.jettison:jettison:1.5.4)
+    *Woodstox (org.codehaus.woodstox:woodstox-core-asl:4.4.1)
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-core-common (org.glassfish.jersey.core:jersey-common:2.35)
+    *jersey-core-server (org.glassfish.jersey.core:jersey-server:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-json-jackson (org.glassfish.jersey.media:jersey-media-json-jackson:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+    *Javassist (org.javassist:javassist:3.20.0-GA)
+    *quartz (org.quartz-scheduler:quartz:2.3.2)
+
+W3C license:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
+
+jQuery license:
+
+    *jersey-connectors-apache (org.glassfish.jersey.connectors:jersey-apache-connector:2.35)
+    *jersey-container-servlet-core (org.glassfish.jersey.containers:jersey-container-servlet-core:2.35)
+    *jersey-inject-hk2 (org.glassfish.jersey.inject:jersey-hk2:2.35)
+    *jersey-media-jaxb (org.glassfish.jersey.media:jersey-media-jaxb:2.35)
+    *jersey-media-moxy (org.glassfish.jersey.media:jersey-media-moxy:2.35)
+    *jersey-media-multipart (org.glassfish.jersey.media:jersey-media-multipart:2.35)
