@@ -1,0 +1,213 @@
+===================================================================
+======    APLS v9.14 Release Update - April 2023             ======
+===================================================================
+-Vulnerability Fixes
+    -> Common Weakness Enumeration (CWE) fixes from Static Code Analysis and Web Application Scanning tool reports.
+        CWE (#Issues): CWE-937 (#3), CWE-829 (#1), CWE-820 (#28), CWE-693 (#4), CWE-543 (#15),CWE-525 (#1), CWE-476 (#11),
+                       CWE-404 (#12), CWE-366 (#5), CWE-352 (#79), CWE-330 (#1), CWE-319 (#2), CWE-297 (#1), CWE-296 (#2),
+                       CWE-200 (#2) CWE-90 (#23), CWE-89 (#13),CWE-23 (#1) CWE-22 (#11)
+    -> Codehaus Jettison
+        CVE's: CVE-2022-45685, CVE-2022-45693, CVE-2023-1436
+    -> Java runtime Amazon Corretto upgrade to v8.362.08.1
+        CVE's: CVE-2023-21835, CVE-2023-21830, CVE-2023-21843
+-Fix:
+    -> Increased Key strength for default Tomcat server.xml Java keystore self-signed certificate. Causing problems in RedHat v8.5.
+-Upgrade Note
+    -> (UNIX) UMASK set to "0002" at setenv.sh. Tomcat default is "0027"
+===================================================================
+======    APLS v9.13 Release Update - November 2022          ======
+===================================================================
+-Vulnerability Fixes
+    -> Tomcat server.xml weak cipher suites removal.
+        CVE's: CVE-2015-4000, CVE-2016-2183
+    -> Java runtime Amazon Corretto upgrade to v8.302.08.1
+        CVE's:  CVE-2018-25032, CVE-2022-21426, CVE-2022-21434, CVE-2022-21443, CVE-2022-21476, CVE-2022-21496
+    -> Apache Commons-IO
+        CVE's: CVE-2021-29425
+    -> Apache POI
+        CVE's: CVE-2017-12626, CVE-2022-26336, CVE-2019-12415, CVE-2017-5644, CVE-2021-23926
+    -> Jersey Libraries
+        CVE's: CVE-2015-1833, CVE-2009-0026
+    -> Hibernate orm
+        CVE's: CVE-2020-25638, CVE-2020-25638, CVE-2019-14900, CVE-2019-14900
+    -> iText
+        CVE's: CVE-2017-9096, CVE-2022-24197, CVE-2022-24196
+    -> Quartz scheduler
+        CVE's: CVE-2019-13990
+    -> RestEasy
+        CVE's: CVE-2020-1695, CVE-2016-9606, CVE-2021-20293, CVE-2021-20289, CVE-2020-25633, CVE-2020-10688
+-Upgrade Note
+    -> (UNIX) UMASK set to "0002" at setenv.sh. Tomcat default is "0027"
+===================================================================
+======    APLS v9.12 Release Update - September 16, 2022      =====
+===================================================================
+-Enhancements
+    -> Tomcat version upgrade 9.0.64.0.
+    -> Increased Java VM Heap Memory requirements.
+    -> Commuter Renew is now allowed as per request, regardless of remaining time.
+-Fix
+    -> Server logic preventing commuter token renew from extending expiry date.
+    -> Server logic preventing commuter checkout for un-configured "Admin Allowed" Features.
+    -> (UNIX)Installation allowed for non-root users causes service installation and removal issues.
+-Upgrade Note
+    -> (UNIX) UMASK set to "0002" at setenv.sh. Tomcat default is "0027"
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycles.
+===================================================================
+======    APLS v9.11 Release Update - June 10, 2022           =====
+===================================================================
+-Enhancements
+    -> Added C3P0 Connection pool properties to manage database connection stability during redundancy configuration.
+-Fix
+    -> Tomcat Server stop script on Linux systems ungracefull kill the server service.
+    -> Redundancy Heartbeat HTTP connection leakage causing CLOSE_WAIT state on port 5814:<socket-number>
+    -> ReIssue API license already expired when PD file configured not Allow Clock Expiration based on server time.
+    -> Validation error causing Null pointer exception and Index:Size out of bounds errors during history data capacity consumption calculation.
+    -> UI Audit logs feature on Audit Configuration - logs null error during reissued licenses.
+    -> Possible server deadlocks on Checkout/ReIssue/Checkin AutoPassJ Client API transactions causing unresponsive server during database synchronization failures.
+    -> Redundancy configured servers Logs "sendMail: null pointer exception" error message when Admin email is not configured properly.
+-Vulnerability Fix
+    -> Struts version update to 2.5.30.
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycles.
+===================================================================
+======    APLS v9.10.2 Release Update - December 30, 2021     =====
+===================================================================
+-Vulnerability Fix
+    -> Fixes for CVE-2021-44832, CVE-2021-44228,CVE-2021-45046 and CVE-2021-45105, Log4j2 version upgrade to 2.17.1.
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycle.
+===================================================================
+======    APLS v9.10.1 Release Update - December 20, 2021     =====
+===================================================================
+-Vulnerability Fix
+    -> Fix for CVE-2021-44228, Log4j2 version upgrade to 2.16.0.
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycle.
+===================================================================
+======    APLS v9.10.0.0 Release Update - November 22, 2021   =====
+===================================================================
+-Enhancements
+    -> Upgrade to Log4j 2. Changed properties file format from properties to xml. Filename changed from log4j.properties to log4j2.xml
+-Vulnerability Fix
+    -> Migrated Struts Framework from 2.3.x to version 2.5.26.
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycle.
+===================================================================
+======    APLS v9.9.0.0 Release Update - September 06, 2021   =====
+===================================================================
+-Enhancements
+    -> Database connection leaks and exception handling improvements.
+    -> Redundacy reliabilty enhancements during network outages.
+    -> Log4J property file changes to reduce log output.
+    -> New C3P0 Connection pool properties to manage database connection stability.
+-Fix
+    -> Renew request over-extended expiration period during multiple renews.
+    -> Renew request null pointer exception when the token does not exist at the server.
+    -> PD file corruption during service or host machine ungraceful shutdown.
+    -> Login page unable to reset the temporary password after receiving password by email for password recovery.  
+    -> Intermittent Server service shutdown deadlocks.
+    -> Tomcat Thread Local leak detection unable to stop local thread causing catalina severe UnMarshaller/Marshaller error during shutdown. 
+-Vulnerability Fix
+    -> Tomcat version upgrade to 7.109.
+    -> Java runtime upgrade to Amazon Corretto OpenJDK 1.8.302.
+    -> TLSv1.0 no longer supported in Tomcat server.xml.
+Deprecation Notice:
+    -> UsageHub functionality will no longer be supported. Will be removed by next release cycles.
+===================================================================
+======    APLS v9.8.0.5 Release Update - April 06, 2021   =========
+===================================================================
+-Upgrade Note 
+	-> If upgrading from v9.6.x Lock Code change is expected after upgrading to v9.8.x. In such case, Please request a license re-host by contacting Licensing Support.
+-Update
+    -> Branding update to self-signed certificate.
+===================================================================
+======    APLS v9.8.0.4 Release Update - October 23, 2020   =======
+===================================================================
+-Upgrade Note 
+	-> If upgrading from v9.6.x Lock Code change is expected after upgrading to v9.8.x. In such case, Please request a license re-host by contacting Licensing Support.
+-Fix
+    -> Service initialization script causing issues in Dash shell interpreter.
+
+===================================================================
+======    APLS v9.8.0.3 Release Update - June 5, 2020       =======
+===================================================================
+-Upgrade Note 
+	-> If upgrading from v9.6.x Lock Code change is expected after upgrading to v9.8.x. In such case, Please request a license re-host by contacting Licensing Support.
+-Enhancements
+    -> Changed Java runtime environment from Oracle to Amazon Corretto OpenJDK v1.8.
+
+===================================================================
+======    APLS v9.8.0.2 Release Update - August 5, 2019     =======
+===================================================================
+-Upgrade Note 
+	-> If upgrading from v9.6.x Lock Code change is expected after upgrading to v9.8.x. In such case, Please request a license re-host by contacting Licensing Support.
+-Fix
+    -> Issue on some Linux environments causing a Lock Code change during installation.
+-Enhancements
+    -> Installation process now provides an Upgrade procedure for all previous versions from 9.6.x to 9.8.0.1.
+
+===================================================================
+======    APLS v9.8.0.1 Release Update - July 11, 2019      =======
+===================================================================
+-Upgrade Note 
+	-> There is a reported issue on some Linux environments causing a Lock Code change during installation. In such case, Please request a license re-host by contacting Licensing Support.
+-Fix
+    -> API call getProductFeatureDetails() returns null or message "No products found in license server with the given input", after PD file is registered at server.
+     
+===================================================================
+======    APLS v9.8 Release Update - May 9, 2019            =======
+===================================================================
+-Enhancements
+    -> Performance enhancement for AutoPass Client requests.
+    -> Log output reduction. 
+
+-Fixes
+    -> While on Redundancy Mode, Secondary Server redirecting to Inactive Primary Server after prolonged time.
+    -> Error 500 on Service Restart after configuring Redundancy Mode.  
+
+===================================================================
+======    APLS v9.7.0.1 Release Update - September 12, 2018 =======
+===================================================================
+-Fixes
+    -> APLS installer accepts custom USER_DATA_DIR when executing in silent mode while providing installer.properties response file.
+	
+===================================================================
+======    APLS v9.7 Release Update - August 8, 2018         =======
+===================================================================
+-New
+    -> APLS installer now supports Windows Server 2016 operating system.  
+
+-Fixes
+    -> License server uninstaller “Change HPE AutoPass License Server” now removes the license server either in Silent or UI mode,
+on both Windows and Linux environments.
+    -> Lock Code length standardized to 15 characters on both Windows and Linux.  
+
+-Enhancements
+    -> Security Enhancements to Lock Code mechanism on Windows and Linux systems. 
+
+-Notes
+    -> Windows/Linux OS Users: If upgrading from an older version from 9.6.4 or the current Lock Code 
+    does not follow standard of 15 characters, a new Lock Code will be created during the installation process. 
+    Therefore making any previously installed license invalid. Customer will need to contact Licensing Support 
+    to get a new license or request a re-host of the old license. 
+    -> Product Team: It is strongly suggested to upgrade the APLS package included in your product to 9.7 in order
+    to avoid further impact to customers. Any production License generated for APLS  now requires a locking code
+    of 15 characters of length provided by this latest release. 
+
+===================================================================
+======    APLS v9.6.5 Release Update - June 25, 2018         ======
+===================================================================
+-Fixes
+    -> Solved issue with License getAttributeList() API not returning custom attributes within the license.
+    -> Autopass License Server installer is now able to uninstall/remove older versions.
+
+===================================================================
+======    APLS v9.6.4 Release Update - April 05, 2018        ======
+===================================================================
+-Fixes
+    -> APLS Upgrade process is now able to remove previous versions.
+
+-Enhancements
+    -> Service commands enhancements related to Linux environment.
+    -> Security enhancements related to windows environments.
